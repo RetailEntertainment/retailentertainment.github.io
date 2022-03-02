@@ -10,5 +10,5 @@ fields:
     max: 
     source:
       type: pages
-      section: jekyll-pages
+      section: jekyll-posts
   label: Posts
