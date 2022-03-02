@@ -1,4 +1,13 @@
 ---
 label: Section
 hide_body: true
-fields: []
+fields:
+- name: section_field
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Section field
