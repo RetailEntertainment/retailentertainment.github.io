@@ -2,3 +2,5 @@
 label: pres
 hide_body: true
 fields: []
+pages:
+- _posts/second.md
