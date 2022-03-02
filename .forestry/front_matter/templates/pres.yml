@@ -11,5 +11,13 @@ fields:
     schema:
       format: markdown
   label: bom
+- name: aba
+  type: blocks
+  label: aba
+  template_types: []
+  config:
+    min: 
+    max: 
+  hidden: false
 pages:
 - _posts/second.md
