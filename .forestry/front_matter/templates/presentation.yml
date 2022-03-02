@@ -1,4 +1,12 @@
 ---
 label: Presentation
 hide_body: false
-fields: []
+fields:
+- name: items
+  type: blocks
+  label: Items
+  template_types:
+  - section
+  config:
+    min: 
+    max: 
