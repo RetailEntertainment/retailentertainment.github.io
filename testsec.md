@@ -5,5 +5,5 @@ items:
     # Hello
 
     This is a test
-
+layout: default
 ---
