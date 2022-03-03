@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+<h1>
+Retail Entertainment<br>
+is a full-service<br>
+brand-experience<br>
+agency<br>
+—
+</h1>
+<h2>
+We bring celebrities, artists and brands together to curate immersive interactive experiences.
+</h2>
+Retail Entertainment offers a data-driven strategy. Through insights in customer behaviour we create communication concepts, format and content. The future of brand and agency relationships is co-creation in a fast-paced and dynamic environment.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+We combine human creativity with automative marketing solutions and brand-building communities. Our content production includes live events, online store material, e-com and video content.

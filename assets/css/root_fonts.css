@@ -88,8 +88,8 @@
     font-family: HelveticaNeueHeavy;
     src: local("HelveticaNeue-Heavy"),
          local("Helvetica Neue Heavy"),
-         url("/assets/fonts/HelveticaNeue-Roman.woff"),
-         url("/assets/fonts/HelveticaNeue-Roman.ttf");
+         url("/assets/fonts/HelveticaNeue-Heavy.woff"),
+         url("/assets/fonts/HelveticaNeue-Heavy.ttf");
     font-style: normal;
     font-weight: normal;
 }

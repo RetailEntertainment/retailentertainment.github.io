@@ -2,6 +2,7 @@
 
 :root
 {
+    --colBG: #2b2b2b;
     --col_LightBG: white;
     --col_DarkBG: rgb(22,22,22);
 }
@@ -9,13 +10,19 @@
 html, body
 {
     font-family: HelveticaNeueRoman;
+    background-color: var(--colBG);
+    overflow-x: hidden;
+    max-width: min(95%, 800px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 
 content
 {
-    margin: 1em auto;
+    margin: 0;
+    padding: 0;
     font-size: 1.2rem;
-    max-width: min(95%, 800px);
 }
 
 h1, h2, h3
@@ -45,3 +52,6 @@ section
     margin-bottom: 0.5em;
     overflow-y: hidden;
 }
+
+#content br {display: none;}
+#content p br {display: inline;}
