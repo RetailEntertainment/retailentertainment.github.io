@@ -1,0 +1,47 @@
+@import "root_fonts.css";
+
+:root
+{
+    --col_LightBG: white;
+    --col_DarkBG: rgb(22,22,22);
+}
+
+html, body
+{
+    font-family: HelveticaNeueRoman;
+}
+
+content
+{
+    margin: 1em auto;
+    font-size: 1.2rem;
+    max-width: min(95%, 800px);
+}
+
+h1, h2, h3
+{
+    font-family: HelveticaNeueHeavy;
+}
+
+h1
+{
+    font-size: 2.2rem;
+}
+
+h2
+{
+    font-size: 1.5rem;
+}
+
+h3
+{
+    font-size: 1.2rem;
+}
+
+section
+{
+    background-color:var(--col_LightBG);
+    padding: 0.8em 1em 0.8em;
+    margin-bottom: 0.5em;
+    overflow-y: hidden;
+}
