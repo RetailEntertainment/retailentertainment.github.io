@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+
+html, body
+{
+    max-width: 95%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+body
+{
+    margin: auto;
+    padding: 1em;
+    font-family: 'Work Sans';
+    color:rgb(224, 224, 213);
+    background-color: black;
+    background-image: linear-gradient(rgb(29, 21, 34),rgb(8, 23, 26), rgb(29, 19, 18),  rgb(0, 0, 0));
+    width: 80%;
+    
+    max-width:800px
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    body
+    {
+        width:95%;
+    }
+}
+
+
+h1, h2
+{
+    font-size: 2.8em;
+    font-weight: 600;
+    line-height: 0.9em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.1em;
+}
+/**/
+comment
+{
+    color:rgb(121, 122, 121)
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+.content
+{
+    margin-top: 2em;
+}
+
+
+h3
+{
+    font-size: large;
+    margin: 0;
+}
+
+p
+{
+    font-size: 1.2em;
+}
+
+header
+{
+    position:relative;
+    width: 100%;
+    height: 6em;
+    overflow: hidden;
+}
+
+#vidBGTop
+{
+    z-index: -1;
+    opacity: 40%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    
+}
+
+#vidSection
+{
+    width: 100%;
+}
+
+.overlayText
+{
+    position: absolute;
+    align-self: center center;
+    top: 30%;
+    z-index:1;
+    left: 7%;
+    /*align-self: right;*/
+}
+
+figure
+{
+width: 95%;
+text-align: left;
+padding:0;
+margin: 1em auto;
+font-size: 1em;
+font-style: italic;
+font-weight: 300;
+color: rgb(151, 145, 89);
+}
